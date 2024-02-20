@@ -1,5 +1,6 @@
 import numpy as np
 
+
 # kjemiformler
 
 
@@ -9,6 +10,10 @@ def konsentrasjon(stoffmengde, volum):
 
 def stoffmengde(masse, molarMasse):
     return masse / molarMasse
+
+
+def stoffmengde_konsentrasjon(konsentrasjon, volum):
+    return konsentrasjon * volum
 
 
 def pH(konsentrasjon):
