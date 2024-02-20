@@ -22,3 +22,6 @@ def pH(konsentrasjon):
 
 def buffer_pH(pKa, nBase, nSyre):
     return pKa + (np.log10((nBase / nSyre)))
+
+def test(tall1, tall2):
+    return tall1 + tall2
